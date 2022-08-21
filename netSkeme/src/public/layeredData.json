@@ -1,0 +1,48 @@
+ {
+    "name": "Layer",
+    "comp":"NavBar",
+    "layerElements":[{
+        "elementName":"0",
+        "colorName":"whitecolor",
+        "colorCode":"color1"
+    },
+    {
+        "elementName":"ISO_LIN_ASS",
+        "colorName":"purplecolor",
+        "colorCode":"color2"
+    },
+    {
+        "elementName":"ISO_LIN_CON",
+        "colorName":"orangecolor",
+        "colorCode":"color3"
+    },
+    {
+        "elementName":"ISO_LIN_DRA",
+        "colorName":"whitecolor1",
+        "colorCode":"color4"
+    },
+    {
+        "elementName":"ISO_LIN_FLU",
+        "colorName":"bluecolor",
+        "colorCode":"color5"
+    },
+    {
+        "elementName":"ISO_LIN_HAT",
+        "colorName":"greencolor",
+        "colorCode":"color6"
+    },
+    {
+        "elementName":"ISO_LIN_PRE",
+        "colorName":"whitecolor1",
+        "colorCode":"color7"
+    },
+    {
+        "elementName":"ISO_LIN_UNI",
+        "colorName":"orangecolor",
+        "colorCode":"color8"
+    }
+    
+]
+    
+}
+

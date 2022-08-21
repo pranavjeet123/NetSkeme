@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { VirtualTimeScheduler } from 'rxjs';
+import layeredData from '../public/layeredData.json';
 
 @Component({
   selector: 'app-root',
@@ -7,17 +8,18 @@ import { VirtualTimeScheduler } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  elements = layeredData.layerElements;
   title = 'netSkeme';
   value: boolean = false;
-  color1:any;
-  color2:any;
-  color3:any;
-  color4:any;
-  color5:any;
-  color6:any;
-  color7:any;
-  color8:any;
-  color9:any;
+  color1?:String;
+  color2?:String;
+  color3?:String;
+  color4?:String;
+  color5?:String;
+  color6?:String;
+  color7?:String;
+  color8?:String;
+  color9?:String;
 
   changeText() {
     this.value= !this.value
