@@ -9,6 +9,7 @@ import { VirtualTimeScheduler } from 'rxjs';
 export class AppComponent {
   title = 'netSkeme';
   value: boolean = false;
+  color1 = 'red';
 
   changeText() {
     this.value= !this.value

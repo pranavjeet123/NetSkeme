@@ -16,11 +16,11 @@
     <li>Layers</li>
 
   </ul>
-  
- 
+
+
 </div>
 
-
+{{color1}}
 <div *ngIf="value" class="bg-box-hidden" (mouseover)="retainDiv()">
   <div class="labelWrappper">
     <h2>Layers</h2>
@@ -28,11 +28,12 @@
     <div>
       <div class="elementWrapper">
         <div>0</div>
-        <div class="whitecolor"></div>
+        <div class="whitecolor" [(colorPicker)]="color1" [style.background]="color1"></div>
       </div>
       <div class="elementWrapper">
         <div>ISO_LIN_ASS</div>
         <div class="purplecolor"></div>
+
       </div>
       <div class="elementWrapper">
         <div>ISO_LIN_CON</div>
