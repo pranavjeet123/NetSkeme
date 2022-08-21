@@ -328,14 +328,16 @@ ul {
     margin:10px;
     color:#EAF2FF;
     font-size:14px;
-    
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: nowrap;
+    max-height: 250px;  
 }
 
 .elementWrapper{
     display:flex;
     justify-content: space-between;
     margin-top:15px;
-
 }
 
 .whitecolor{
@@ -357,4 +359,9 @@ ul {
     width:15px;
     height:15px;
     background-color:#206ce7;  
+}
+.greencolor{
+    width:15px;
+    height:15px;
+    background-color:#5eed2a;  
 }
