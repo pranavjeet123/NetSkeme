@@ -1,0 +1,5 @@
+{
+    "name":"Layer",
+    "comp":"NavBar",
+    "layerElements":[0, "ISO_LIN_ASS", "ISO_LIN_CON", "ISO_LIN_DRA", "ISO_LIN_FLU", "ISO_LIN_HAT", "ISO_LIN_PRE", "ISO_LIN_UNI"]
+}
