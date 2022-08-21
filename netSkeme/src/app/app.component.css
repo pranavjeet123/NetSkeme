@@ -327,6 +327,34 @@ ul {
 .labelWrappper{
     margin:10px;
     color:#EAF2FF;
-    font-size:20px;
+    font-size:14px;
     
+}
+
+.elementWrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+
+}
+
+.whitecolor{
+    width:15px;
+    height:15px;
+    background-color:#EAF2FF;  
+}
+.purplecolor{
+    width:15px;
+    height:15px;
+    background-color:#8241e9;  
+}
+.orangecolor{
+    width:15px;
+    height:15px;
+    background-color:#e7781d;  
+}
+.bluecolor{
+    width:15px;
+    height:15px;
+    background-color:#206ce7;  
 }
