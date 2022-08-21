@@ -331,9 +331,12 @@ ul {
     overflow-x: hidden;
     overflow-y: auto;
     white-space: nowrap;
-    max-height: 250px;  
+    max-height: 250px; 
+     
 }
-
+::ng-deep color-picker open {
+    left:0px;
+  }
 .elementWrapper{
     display:flex;
     justify-content: space-between;
@@ -344,24 +347,42 @@ ul {
     width:15px;
     height:15px;
     background-color:#EAF2FF;  
+    margin-left: 92%;
 }
 .purplecolor{
     width:15px;
     height:15px;
     background-color:#8241e9;  
+    margin-left: 71%;
 }
 .orangecolor{
     width:15px;
     height:15px;
-    background-color:#e7781d;  
+    background-color:#e7781d; 
+    margin-left: 71%; 
 }
 .bluecolor{
     width:15px;
     height:15px;
-    background-color:#206ce7;  
+    background-color:#206ce7; 
+    margin-left: 71%; 
 }
 .greencolor{
     width:15px;
     height:15px;
     background-color:#5eed2a;  
+    margin-left: 71%;
+}
+.addWrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+    color:#206ce7;
+}
+
+.whitecolor1{
+    width:15px;
+    height:15px;
+    background-color:#EAF2FF;  
+    margin-left: 71%;
 }
